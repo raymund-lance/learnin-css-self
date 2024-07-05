@@ -1,0 +1,21 @@
+.odd{
+    background-color: pink;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.odd.three{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#two{
+    font-size: 60px;
+    color: blue;
+}
+
+#four{
+    background-color: green;
+    font-size: 40px;
+    font-weight: 900;
+}
