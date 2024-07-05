@@ -1,0 +1,17 @@
+.one,
+.two{
+    text-align: center;
+    font-size: 50px;
+}
+
+.buttons .one{
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    
+}
+
+.buttons .two{
+    background-color: yellow;
+}
+
