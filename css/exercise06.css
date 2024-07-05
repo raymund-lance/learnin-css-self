@@ -1,0 +1,25 @@
+*{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.small-text{
+    font-size: 20px;
+}
+
+.buttons#confirm{
+    background-color: green;
+    color: white;
+}
+
+.buttons#cancel{
+    background-color: white;
+}
+
+.parent{
+    font-weight: 100;
+}
