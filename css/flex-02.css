@@ -1,0 +1,34 @@
+.container{
+    background-color: moccasin;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.start-child{
+    color: blue;
+}
+
+.mid-child{
+    color: coral;
+}
+
+.end-child{
+    color: blue;
+}
+
+.start-child .start,
+.mid-child h1,
+.end-child .end{
+    background-color: whitesmoke;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.mid-child .mid{
+    font-size: 30px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
