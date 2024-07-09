@@ -1,0 +1,62 @@
+body{
+    background-color: silver;
+    font-family: serif;
+    padding: 0%;
+    margin: 0;
+}
+.header{
+    background-color: ghostwhite ;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 0%;
+    padding: 8px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    color: rebeccapurple;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    padding: 5px;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+.notif{
+    border: none;
+    border-radius: 8px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+}
+
+.profile{
+    background-color: rebeccapurple;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+}
+
+.left,
+.right{
+    display: flex;
+    align-items: center;
+}
