@@ -1,9 +1,11 @@
 body{
     font-family: monospace;
     font-size: 15px;
-    margin: 0%;
-    padding: 0%;
+    height: 100vh;
+    margin: 0;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .links{
@@ -35,7 +37,12 @@ li a{
 }
 
 .content{
-    margin: 150px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .logo,
